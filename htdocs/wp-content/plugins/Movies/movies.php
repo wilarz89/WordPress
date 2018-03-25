@@ -9,7 +9,7 @@ Author URI:
 License: GPLv2
 */
 add_action( 'init', 'create_movie' );
-function create_movie_review() {
+function create_movie() {
   register_post_type( 'movie',
         array(
             'labels' => array(
@@ -32,7 +32,7 @@ function create_movie_review() {
             'menu_position' => 15,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( '' ),
-            'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
+            'menu_icon' => plugins_url( 'images/icon.png', __FILE__ ),
             'has_archive' => true
         )
     );
