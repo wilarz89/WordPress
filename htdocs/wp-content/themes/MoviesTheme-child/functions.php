@@ -12,4 +12,18 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+function create_post_type() {
+  register_post_type( 'Movies',
+    array(
+      'labels' => array(
+        'name' => __( 'Movies' ),
+        'singular_name' => __( 'Movie' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+    )
+  );
+}
+add_action( 'init', 'create_post_type' );
 ?>
