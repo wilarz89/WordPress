@@ -1,4 +1,5 @@
 <?php
+// Detect child theme and create relationship with parent theme:
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
 
