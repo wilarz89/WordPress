@@ -11,3 +11,105 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-seventeen-child
 */
+
+/* --- CSS Reset --- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0px;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* --- Typography --- */
+
+.grid p {
+  line-height: 16px;
+  font-size: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.grid h1 {
+  line-height: 32px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.grid h2 {
+  line-height: 32px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.grid h3 {
+  line-height: 32px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.grid h4 {
+  line-height: 32px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.grid h5 {
+  line-height: 32px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.grid h6 {
+  line-height: 32px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* --- Grid --- */
+
+.grid {
+  width: 450px;
+  margin: auto;
+}
+
+.grid-m1 {
+  float: left;
+  width: 22px;
+  height: 1px;
+}
+
+.grid-c1 {
+  float: left;
+  width: 122px;
+}
+
+.grid-m2 {
+  float: left;
+  width: 20px;
+  height: 1px;
+}
+
+.grid-c2 {
+  float: left;
+  width: 122px;
+}
+
+.grid-m3 {
+  float: left;
+  width: 20px;
+  height: 1px;
+}
+
+.grid-c3 {
+  float: left;
+  width: 122px;
+}
